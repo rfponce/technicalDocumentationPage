@@ -1,100 +1,126 @@
 :root
 {
-    --color1: #abc270;
-    --color2: #fec868;
-    --color3: #fda769;
-    --color4: #463c33;
-    --mainFont: 'Yrsa', serif;
+  --color1: #abc270;
+  --color2: #fec868;
+  --color3: #fda769;
+  --color4: #463c33;
+  --mainFont: 'Yrsa', serif;
 }
 
 *
 {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html
 {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body
 {
-    background-color: var(--color1);
-    color: var(--color4);
+  background-color: var(--color1);
+  color: var(--color4);
 }
 
 .wrapper
 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .navbar, #main-doc
 {
-    width: 96vw;
-    margin: 1rem auto;
+  width: 96vw;
+  margin: 1vw auto;
 }
 
 .main-header
 {
-    font-size: 2.4rem;
-    font-weight: bold;
-    border: 3px solid var(--color4);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  font-size: 7vw;
+  padding: 1vw;
+  font-weight: bold;
+  border: 3px solid var(--color4);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .navbar__ul
 {
-    list-style: none;
-    font-size: 2.2rem;
+  list-style: none;
+  font-size: 6.5vw;
 }
 
 .navbar__li
 {
-    border: 3px solid var(--color4);
-    margin: 0.5rem auto;
+  border: 3px solid var(--color4);
+  margin: 0.5rem auto;
+  padding: 1vw;
 }
 
 .navbar__a
 {
-    text-decoration: none;
-    color: var(--color4);
+  text-decoration: none;
+  color: var(--color4);
 }
 
 .theme-section
 {
-    font-size: 1.8rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 3px solid var(--color4);
-    padding: 1rem;
+  font-size: 6.5vw;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 3px solid var(--color4);
+  padding: 1vw;
+}
+
+.section-title
+{
+  font-size: 6.9vw;
 }
 
 .note
 {
-    background-color: var(--color3);
-    margin: 2rem auto;
+  background-color: var(--color3);
+  margin: 2rem auto;
+  padding: 1.5vw;
 }
 
 .note__header
 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .code-container
 {
-    background-color: var(--color4);
-    color: var(--color2);
-    margin: 1rem auto;
-    padding: 1rem;
+  background-color: var(--color4);
+  color: var(--color2);
+  margin: 1rem auto;
+  padding: 1rem;
 }
 
 #Glossary ul
 {
-    padding: 1rem;
+  padding: 1rem;
+}
+
+.glossary-li
+{
+  margin-left: 2vw;
+}
+
+footer
+{
+  font-size: 6vw;
+  background-color: var(--color4);
+  padding: 1rem;
+  color: var(--color3);
+}
+
+footer a
+{
+  color: var(--color3);
 }
